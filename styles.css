@@ -1,24 +1,17 @@
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 300 to 800
+/* HTML Section */
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* General Styles */
 body {
     font-family: "Open Sans", sans-serif;    
     margin: 0;
-    /* background: linear-gradient(to bottom, #414345, #232526); */
-    /* background: linear-gradient(to bottom, #474747, #3b3b3b); */
-    background-image: linear-gradient(to bottom, #2e2e2e, #353535, #3c3c3c, #434343, #4a4a4a, #4b4b4b, #4d4d4d, #4e4e4e, #494949, #444444, #404040, #3b3b3b);
     /* color: #E2DFD0; */
-    color: #E2DFD0;
+    background: linear-gradient(to bottom, #2c2c2c, #383838);
+    color: #d9cbb8;
     text-align: center;
     line-height: 1.6;
 }
@@ -29,15 +22,18 @@ body {
     padding: 20px;
 }
 
+
 /* Section Margins */
 section {
     margin: 40px auto;
     padding: 20px 0;
 }
 
+
 /* Header */
 .header .image {
-    background-image: url("https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YSUyMGFuYWx5c2lzfGVufDB8fDB8fHww");
+    background-color: #d9cbb8;
+    background-image: url("https://raw.githubusercontent.com/arifsahari/arifsahari.github.io/refs/heads/main/data%20analysis%20flat_5837900.png");
     background-size: cover;
     background-position: center;
     width: 150px;
@@ -50,7 +46,8 @@ section {
 .header .profession span {
     font-weight: bold;
     font-size: 18px;
-    color: #E07B39;
+    /* color: #E07B39; */
+    color: #f4a261;
 }
 
 .header .bio {
@@ -58,6 +55,7 @@ section {
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
+    color: #d9cbb8;
 }
 
 .navbar {
@@ -65,6 +63,18 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+
+    position: relative; 
+    width: 100%;
+    z-index: 10;
+    background-color: #383838;
+    transition: top 0.1s ease-in-out;
+}
+
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for clarity */
 }
 
 /* .navbar .link {
@@ -80,7 +90,8 @@ section {
 
 .navbar .link:hover {
     background: transparent;
-    color: #E07B39;
+    /* color: #E07B39; */
+    color: #f4a261;
 }
 
 /* Links */
@@ -96,7 +107,8 @@ section {
     padding: 10px 10px;
     /* color: #232526; */
     /* background: #ffcc66; */
-    color: #E2DFD0;
+    /* color: #E2DFD0; */
+    color: #d9cbb8;
     font-size: 18px;
     /* font-weight: bold; */
     border-radius: 6px;
@@ -106,7 +118,7 @@ section {
     /* background: #E2DFD0;
     color: #232526; */
     background: transparent;
-    color: #E07B39;
+    color: #f4a261;
 }
 
 /* Skills Section */
@@ -123,9 +135,10 @@ section {
 }
 
 .skills li {
-    background: #E2DFD0;
+    background: #d9cbb8;
     color: #232526;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
+    padding: 2px 10px;
     font-weight: bold;
     text-align: center;
     border-radius: 6px;
@@ -137,7 +150,7 @@ section {
     /* background: #E2DFD0;
     transform: scale(1.05); */
     background: transparent;
-    color: #E07B39;
+    color: #f4a261;
 }
 
 /* Contact Section */
@@ -150,20 +163,21 @@ section {
 }
 
 .contact a {
-    color: #E2DFD0;
+    color: #d9cbb8;
     text-decoration: none;
     font-size: 16px;
 }
 
 .contact i {
     font-size: 20px;
-    color: #E07B39;
+    color: #f4a261;
 }
 
 /* Projects Section */
 .project-card {
-    background: #373737;
-    color: #E2DFD0;
+    /* background: #414345; */
+    background: #515151;
+    color: #d9cbb8;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
@@ -174,7 +188,7 @@ section {
 .project-card h3 {
     margin-bottom: 10px;
     font-size: 20px;
-    color: #E07B39;
+    color: #f4a261;
 }
 
 .project-card p {
@@ -183,7 +197,7 @@ section {
 }
 
 .project-card a {
-    color: #bdbdbd;
+    color: #d9cbb8;
     text-decoration: none;
     font-weight: bold;
 }
@@ -198,7 +212,7 @@ section {
 h1, h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #E07B39;
+    color: #f4a261;
 }
 
 h1 {
