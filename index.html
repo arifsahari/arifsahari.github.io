@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Data Analyst</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style4.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -17,7 +17,6 @@
         <p class="bio"><span>Hello,<br>
         I'm Muhammad Nor Arif bin Ahmad Sahari</span></p>
         <nav id='nav' class="navbar">
-            <a href="#home" class="link">Home</a>
             <a href="#about" class="link">About</a>
             <a href="#skills" class="link">Skills</a>
             <a href="#projects" class="link">Projects</a>
@@ -25,29 +24,16 @@
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="home container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>
-            Hi there! Welcome to my portfolio.<br> 
-            I'm passionate about turning raw data into impactful stories that drive decisions.<br> 
-            Let’s explore my journey!<br>
-            <br>
-            My work spans building dashboards to segmenting customers.<br> 
-            I take pride in helping businesses uncover growth opportunities<br>
-            <br>
-            I believe data holds the power to drive innovation, and I’m eager to contribute my expertise to transformative projects 
-        </p>
-     </section>
-
     <!-- About Section -->
     <section id="about" class="about container">
         <h2>About Me</h2>
         <p>
-            I'm a data analyst skilled in Python, SQL, and Tableau. I enjoy solving complex problems 
-            and delivering actionable insights to drive business success.
+            Hi there! Welcome to my portfolio. I'm passionate about data and its power to drive decisions
+            <br>
+            I'm a data analyst skilled in Python, SQL, and Tableau, solving complex problems and delivering actionable insights.
         </p>
     </section>
+
 
     <!-- Skills Section -->
     <section id="skills" class="skills container">
@@ -96,5 +82,31 @@
     <footer class="footer container">
         <p>© 2024 All rights reserved.</p>
     </footer>
+
 </body>
+<!-- Javascript -->
+<script src="script.js"></script>
+<!-- <script>
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        const header = document.querySelector('.header');
+        const sticky = header.offsetHeight; // Height at which navbar sticks
+
+        if (window.scrollY > sticky) {
+            navbar.classList.add('sticky'); // Add sticky class
+        } else {
+            navbar.classList.remove('sticky'); // Remove sticky class
+        }
+    });
+    document.querySelectorAll('.navbar a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+</script> -->
 </html>
