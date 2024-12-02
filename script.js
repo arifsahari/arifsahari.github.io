@@ -23,3 +23,10 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
         });
     });
 });
+
+// Active curent page
+document.querySelectorAll('.navbar .link').forEach(link => {
+    if (window.location.href.includes(link.getAttribute('href'))) {
+        link.classList.add('active');
+    }
+});
