@@ -34,7 +34,7 @@ catalogue
 certifi
 cffi
 charset-normalizer
-click==8.1.7
+click
 cloudpathlib
 cloudpickle
 cmdstanpy
@@ -302,7 +302,7 @@ typeguard
 typer
 types-python-dateutil
 typing_extensions
-tzdata==2024.1
+tzdata
 uri-template
 urllib3
 vega-datasets
