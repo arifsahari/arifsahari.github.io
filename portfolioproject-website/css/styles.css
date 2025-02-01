@@ -33,7 +33,8 @@ section {
 /* Header */
 .header .image {
     background-color: #d9cbb8;
-    background-image: url("https://raw.githubusercontent.com/arifsahari/arifsahari.github.io/refs/heads/main/portfolioproject-website/image/data%20analysis%20flat_5837900.png");
+/*     background-image: url("https://raw.githubusercontent.com/arifsahari/arifsahari.github.io/refs/heads/main/portfolioproject-website/image/data%20analysis%20flat_5837900.png"); */
+    background-image: url("https://github.com/arifsahari/arifsahari.github.io/blob/main/portfolioproject-website/image/data analysis flat_5837900.png");
     background-size: cover;
     background-position: center;
     width: 150px;
