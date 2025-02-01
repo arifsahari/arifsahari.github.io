@@ -229,7 +229,6 @@ python-json-logger
 python-slugify
 pytz
 PyWavelets
-pywin32
 pywinpty
 PyYAML
 pyzmq
