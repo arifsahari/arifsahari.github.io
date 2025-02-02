@@ -10,7 +10,7 @@ app.secret_key = 'your_secret_key'
 # --- Database (MySQL) Setup with SQLAlchemy ---
 # Configure your MySQL connection using an environment variable DATABASE_URL.
 # Example DATABASE_URL: "mysql+pymysql://username:password@host:port/dbname"
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL", "mysql+pymysql://username:password@localhost:3306/yourdbname")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL", "mysql+pymysql://mysql:root@localhost:3306/order_checking")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
