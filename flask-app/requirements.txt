@@ -7,3 +7,7 @@ seaborn
 Flask-SQLAlchemy
 pymysql
 gspread
+oauth2client
+openpyxl
+mysql-connector-python
+werkzeug
