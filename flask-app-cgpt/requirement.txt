@@ -1,15 +1,10 @@
 Flask
 gunicorn
 pandas
-numpy
-matplotlib
-seaborn
 Flask-SQLAlchemy
-pymysql
+PyMySQL
 gspread
 oauth2client
 openpyxl
 mysql-connector-python
 werkzeug
-models
-base
