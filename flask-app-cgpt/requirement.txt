@@ -12,3 +12,4 @@ openpyxl
 mysql-connector-python
 werkzeug
 models
+base
